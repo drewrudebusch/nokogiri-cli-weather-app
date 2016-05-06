@@ -2,6 +2,7 @@ require 'rest-client'
 require 'nokogiri'
 
 @base_url = "https://weather.com/weather/today/l/"
+
 def init
   puts "Enter a zip code."
   zip = gets.chomp
@@ -27,7 +28,7 @@ def user_choice
     return
   else 
       puts
-    puts "Invalid choice. Please make a valid selection."
+    puts "ERROR: "+ @choice + " is an invalid choice. Please make a valid selection."
     user_choice
   end
 end
@@ -39,8 +40,11 @@ def cont
     res = gets.chomp.downcase
     if res == 'y'
       user_choice
-    else
+    elsif res == 'n'
       finish
+    else
+      puts "ERROR: " + res + " is not a valid response. Please enter a valid response."
+      cont
     end
   end
 end
@@ -50,15 +54,26 @@ def finish
   res = gets.chomp.downcase
   if res == 'y'
     init
-  else
+  elsif res == 'n'
+      puts
     puts "Thank you!"
     exit
+  else
+    puts "ERROR: " + res + " is not a valid response. Please enter a valid response."
+    finish
   end
 end
 
 def get_page
+  #Load data from a call to weather.com for user-entered zip
+  # response = RestClient.get(@url)
+  # html = response.body
+  # data = Nokogiri::HTML(html)
+  
+  #Load data from a downloaded version of weather.com for zip: 98121
   html = File.open("weather.html")
   data = Nokogiri::HTML(html)
+
   temp_select = '.large-temp span'
   weather_select = '.full-glomo-details div span'
   @temp_data = data.css(temp_select)
@@ -67,25 +82,25 @@ end
 
 def temp
     puts
-  puts @temp_data[0].text + " (" + @temp_data[1].text + " " + @temp_data[2].text + ")"
+  puts "Current temperature: " + @temp_data[0].text + " (" + @temp_data[1].text + " " + @temp_data[2].text + ")"
   cont
 end
 
 def wind
     puts
-  puts @weather_data[0].text
+  puts "Current wind: " + @weather_data[0].text
     cont
 end
 
 def humidity
     puts
-  puts @weather_data[1].text
+  puts "Current humidity: " + @weather_data[1].text
     cont
 end
 
 def visibility
     puts
-  puts @weather_data[4].text
+  puts "Current visibility: " + @weather_data[4].text
     cont
 end
 
@@ -98,16 +113,5 @@ def all
   finish
 end
 
+# Call function
 init
-
-# response = File.open("path/to/file", "w") { |file|  }
-# html = response.body
-
-# #define what we're targeting
-# selector = ".grid-posts h2 .lede__link"
-
-# data = Nokogiri::HTML(html)
-# elements = data.css(selector)
-# elements.each do |headline_links|
-#   puts headline_links.text.strip
-# end
