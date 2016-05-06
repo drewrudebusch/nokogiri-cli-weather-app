@@ -1,0 +1,36 @@
+OX_2434933532({
+  "ads":{
+    "chain":1,
+    "medium":"w",
+    "record_tmpl":"https://ox-d.weatherus.servedbyopenx.com/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"https://us-u.openx.net/w/1.0/pd?plm=5&ph=3025f397-e239-4340-a06a-c5b8d0365d60",
+    "adunits" : [
+      {
+        "auid":"538304968",
+        "chain_timeout":"",
+        "chain_revenue":"900",
+        "chain":[
+          {
+            "is_fallback":0,
+            "framed":1,
+            "ad_id":"537161409",
+            "adv_acct_id":"537073219",
+            "is_ng":1,
+            "adv_id":"152d07b1-da41-4c40-ad18-fe74c269534a:537073219",
+            "brand_id":"775",
+            "cpipc":900,
+            "auct_win_is_deal":0,
+            "pub_rev":"900",
+            "width":"300",
+            "height":"250",
+            "html":"<iframe src=\"https://aax-us-pdx.amazon-adsystem.com/e/ox/impi?b=IFbLcRvrkkkZumWNV9RGM-gAAAFUgxQ9MwYAAAUUYiT9wA&w=AAABVIMUPp0R_9zgFhHkWc6WEcSLBGyYdLXLcQ&bi=5L4SqC9kE0dBD37g98hJtaD7YpbFAKXM.ns2SkQmLfbsji4zSQt5Gm9uHgjax8PQF1WSGMOkgUei0Hbl8n50rh7lardK5FWByPN72bU5Som1cYn2uNh8tQ0LrQ.fWPrOBTDqVTsGHA42Fffn9M01DnHOzoW.EM8QtkBQGJlsLon-U99EanE-bs0PvP1q1b.Z2zztReN8noOgCf0Ve0qr5QTaW8SSieONnWLaepXsmkISGJCPV5BJi3L5owS-upzJLuV7LPqN-UYdWd5ZNFnjUk6bnkpgqdP9SsGLqKzgXj07v9c6YpyihZqIrBOVDH6EMAf36qrMux6mCcPlsEaHIPQ0QEQKYlUkNqAemtqGN3SrUDDhUahOYhjryRNpsI.KjcdK9abfNdlkw6M2EXmEgBGfwQ1LjupnnhnzRuSKanmxVLNQbZwkpJOgENvRQXYUqOk.5QcL6CKmCtKhbXDiuA__&s=300x250\" width=300 height=250 frameborder=0 marginwidth=0 marginheight=0 scrolling=\"no\"></iframe><iframe src=\"https://s.amazon-adsystem.com/iu3?d=openx.com&cb=424446\" width=\"1\" height=\"1\" style=\"display:none\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\"></iframe>",
+            "target":"_blank",
+            "ts":"1fHJpZD1iNDJiYTk1Zi1kYmQ3LTQzYTMtODQ2Ni1lMTg5OWExYmFjMzh8cnQ9MTQ2MjQ4ODAyMnxhdWlkPTUzODMwNDk2OHxhdW09RE1JRC5XRUJ8c2lkPTUzNzI0MzMyMXxwdWI9NTM3MTA4NjAxfHBjPVVTRHxyYWlkPThhM2JkZDc0LThiMmYtNGY4OS1hNDc1LTA4OTc5OTY2Mzg0N3xjbD0xfGFpZD01MzcxNjE0MDl8dD0xMnxhcz0zMDB4MjUwfGxpZD01MzcxMjczMjZ8b2lkPTUzNzA5NTk2MHxwPTkyMHxwcj05MDB8YXRiPTkyNXxhZHY9NTM3MDczMjE5fGFjPVVTRHxwbT1QUklDSU5HLkNQTXxtPTF8YWk9MTUyZDA3YjEtZGE0MS00YzQwLWFkMTgtZmU3NGMyNjk1MzRhfG1jPVVTRHxtcj0yMHxwaT05MDB8bXVpPTUwYTgwZTJjLWNhZDQtNDU2NC1hNjliLTliYjM4MWY2ZmFlY3xtYT0yOTkyM2VmNC05YjZmLTQ4YmUtOWQ3My1hNjc0YjRiYzA4YzR8bXJ0PTE0NjI0ODgwMjJ8bXJjPVNSVF9XT058bXdhPTUzNzA3MzIxOXxtd2JpPTc3NXxtd2I9OTI1fG1hcD05MjB8ZWxnPTF8bW9jPVVTRHxtb3I9MjB8bXBjPVVTRHxtcHI9OTAwfG1wZj05MDB8bW1mPTkwMHxtcG5mPTkwMHxtbW5mPTkwMHxwY3Y9MjAxNjAzMjJ8bW89T1h8bXB1PTkwMHxtY3A9OTIwfGFxdD1ydGJ8bXdjPTUzNzA5NTk2MHxtd3A9NTM3MTI3MzI2fG13Y3I9NTM3MTYxNDA5fG13aXM9MXxtd3B0PW94X3Byb3RvfGNpPTF8dXI9VTY3b2NPV2x4bHxsbj01MzcwOTU5NjAjNTM3MTI3MzI2IzUzNzE2MTQwOSMjMjk5MjNlZjQtOWI2Zi00OGJlLTlkNzMtYTY3NGI0YmMwOGM0IzE1MmQwN2IxLWRhNDEtNGM0MC1hZDE4LWZlNzRjMjY5NTM0YSNveF9wcm90byM1MzcwNzMyMTl8bGQ9YW1hem9uLmNvbQ",
+            "type":"html",
+            "ad_url":"<iframe src=\"https://aax-us-pdx.amazon-adsystem.com/e/ox/impi?b=IFbLcRvrkkkZumWNV9RGM-gAAAFUgxQ9MwYAAAUUYiT9wA&w=AAABVIMUPp0R_9zgFhHkWc6WEcSLBGyYdLXLcQ&bi=5L4SqC9kE0dBD37g98hJtaD7YpbFAKXM.ns2SkQmLfbsji4zSQt5Gm9uHgjax8PQF1WSGMOkgUei0Hbl8n50rh7lardK5FWByPN72bU5Som1cYn2uNh8tQ0LrQ.fWPrOBTDqVTsGHA42Fffn9M01DnHOzoW.EM8QtkBQGJlsLon-U99EanE-bs0PvP1q1b.Z2zztReN8noOgCf0Ve0qr5QTaW8SSieONnWLaepXsmkISGJCPV5BJi3L5owS-upzJLuV7LPqN-UYdWd5ZNFnjUk6bnkpgqdP9SsGLqKzgXj07v9c6YpyihZqIrBOVDH6EMAf36qrMux6mCcPlsEaHIPQ0QEQKYlUkNqAemtqGN3SrUDDhUahOYhjryRNpsI.KjcdK9abfNdlkw6M2EXmEgBGfwQ1LjupnnhnzRuSKanmxVLNQbZwkpJOgENvRQXYUqOk.5QcL6CKmCtKhbXDiuA__&s=300x250\" width=300 height=250 frameborder=0 marginwidth=0 marginheight=0 scrolling=\"no\"></iframe><iframe src=\"https://s.amazon-adsystem.com/iu3?d=openx.com&cb=424446\" width=\"1\" height=\"1\" style=\"display:none\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\"></iframe>"
+          }
+        ]
+      }
+    ]
+  }
+});

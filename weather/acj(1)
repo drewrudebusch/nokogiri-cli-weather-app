@@ -1,0 +1,36 @@
+OX_2033548846({
+  "ads":{
+    "chain":1,
+    "medium":"w",
+    "record_tmpl":"https://ox-d.weatherus.servedbyopenx.com/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"https://us-u.openx.net/w/1.0/pd?plm=5&ph=3025f397-e239-4340-a06a-c5b8d0365d60",
+    "adunits" : [
+      {
+        "auid":"538304968",
+        "chain_timeout":"",
+        "chain_revenue":"4309",
+        "chain":[
+          {
+            "is_fallback":0,
+            "framed":1,
+            "ad_id":"537159141",
+            "adv_acct_id":"537073275",
+            "is_ng":1,
+            "adv_id":"152d07b1-da41-4c40-ad18-fe74c269534a:537073275",
+            "brand_id":"26476",
+            "cpipc":4309,
+            "auct_win_is_deal":0,
+            "pub_rev":"4309",
+            "width":"300",
+            "height":"250",
+            "html":"<IFRAME SRC=\"https://ad.doubleclick.net/ddm/adi/N9515.134266OWNERIQ1/B9640739.130886011;sz=300x250;click=https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?;ord=1462488021;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?\" WIDTH=300 HEIGHT=250 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>\n<SCRIPT language='JavaScript1.1' SRC=\"https://ad.doubleclick.net/ddm/adj/N9515.134266OWNERIQ1/B9640739.130886011;abr=!ie;sz=300x250;click=https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?;ord=1462488021;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?\">\n</SCRIPT>\n<NOSCRIPT>\n<A HREF=\"https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?https://ad.doubleclick.net/ddm/jump/N9515.134266OWNERIQ1/B9640739.130886011;abr=!ie4;abr=!ie5;sz=300x250;click=https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?;ord=1462488021?\">\n<IMG SRC=\"https://ad.doubleclick.net/ddm/ad/N9515.134266OWNERIQ1/B9640739.130886011;abr=!ie4;abr=!ie5;sz=300x250;click=https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?;ord=1462488021;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?\" BORDER=0 WIDTH=300 HEIGHT=250 ALT=\"Advertisement\"></A>\n</NOSCRIPT>\n</IFRAME><br><script type=\"text/javascript\" src=\"https://c.betrad.com/surly.js?;ad_w=300;ad_h=250;coid=321;nid=8575;ad_z=50000;\"></script><img src=\"https://lbinaplax.bidder.owneriq.net:443/bidder/ox/notify?id=bdcf992f-fffc-47c2-a59e-72c9ce938623&bc=23925800505&br=225952052&sz=300x250&dn=weather.com&wp=AAABVIMUPDEwpxNbHdQlG-aoiVRHq8aZOZw-LQ&uid=Q5137685391677412904&li=2392580&bp=13.967514038085938\" width=\"1\" height=\"1\" border=\"0\" />",
+            "target":"_blank",
+            "ts":"1fHJpZD01NzRjZjRmNC1hNTUyLTQzNDAtYjUzNS1iMzY4YzhmN2IyZGR8cnQ9MTQ2MjQ4ODAyMXxhdWlkPTUzODMwNDk2OHxhdW09RE1JRC5XRUJ8c2lkPTUzNzI0MzMyMXxwdWI9NTM3MTA4NjAxfHBjPVVTRHxyYWlkPTdjN2QyOTA0LTBmZDctNDIyMC1iZjhkLWQ0ODgzMzViZmJmNXxjbD0xfGFpZD01MzcxNTkxNDF8dD0xMnxhcz0zMDB4MjUwfGxpZD01MzcxMjYyMjd8b2lkPTUzNzA5NjE4MHxwPTU5NDB8cHI9NDMwOXxhdGI9MTM5Njd8YWR2PTUzNzA3MzI3NXxhYz1VU0R8cG09UFJJQ0lORy5DUE18bT0xfGFpPTE1MmQwN2IxLWRhNDEtNGM0MC1hZDE4LWZlNzRjMjY5NTM0YXxtYz1VU0R8bXI9MTYzMXxwaT00MzA5fG11aT01MGE4MGUyYy1jYWQ0LTQ1NjQtYTY5Yi05YmIzODFmNmZhZWN8bWE9MzIzZGU4NGEtNmZiYi00ZDAyLTk3M2QtOGQzYjI4OWUwOTJhfG1ydD0xNDYyNDg4MDIxfG1yYz1TUlRfV09OfG13YT01MzcwNzMyNzV8bXdiaT0yNjQ3Nnxtd2I9MTM5Njd8bWFwPTU5NDB8ZWxnPTF8bW9jPVVTRHxtb3I9MTYzMXxtcGM9VVNEfG1wcj00MzA5fG1wZj05MDB8bW1mPTkwMHxtcG5mPTkwMHxtbW5mPTkwMHxwY3Y9MjAxNjAzMjJ8bW89T1h8ZWM9Qzc2NDg5NHxtd3M9YmRjZjk5MmYtZmZmYy00N2MyLWE1OWUtNzJjOWNlOTM4NjIzfG1wdT00MzA5fG1jcD01OTQwfGFxdD1ydGJ8aWM9NDgyYWQyMGUtYzM0MS00NDZkLTgyMWItOWRjZjBhZDVlZmFkfHNhcz0zMDB4MjUwfGN0PTF8bXdjPTUzNzA5NjE4MHxtd3A9NTM3MTI2MjI3fG13Y3I9NTM3MTU5MTQxfG13aXM9MXxtd3B0PW94X3Byb3RvfGNpPTF8dXI9WVdMRFM4YjdsWXxsZD1iZW5icmlkZ2UuY29t",
+            "type":"html",
+            "ad_url":"<IFRAME SRC=\"https://ad.doubleclick.net/ddm/adi/N9515.134266OWNERIQ1/B9640739.130886011;sz=300x250;click=https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?;ord=1462488021;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?\" WIDTH=300 HEIGHT=250 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>\n<SCRIPT language='JavaScript1.1' SRC=\"https://ad.doubleclick.net/ddm/adj/N9515.134266OWNERIQ1/B9640739.130886011;abr=!ie;sz=300x250;click=https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?;ord=1462488021;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?\">\n</SCRIPT>\n<NOSCRIPT>\n<A HREF=\"https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?https://ad.doubleclick.net/ddm/jump/N9515.134266OWNERIQ1/B9640739.130886011;abr=!ie4;abr=!ie5;sz=300x250;click=https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?;ord=1462488021?\">\n<IMG SRC=\"https://ad.doubleclick.net/ddm/ad/N9515.134266OWNERIQ1/B9640739.130886011;abr=!ie4;abr=!ie5;sz=300x250;click=https://lbinaplax.bidder.owneriq.net:443/bidder/ox/click/id/bdcf992f-fffc-47c2-a59e-72c9ce938623/bc/23925800505/uid/Q5137685391677412904/br/225952052?;ord=1462488021;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?\" BORDER=0 WIDTH=300 HEIGHT=250 ALT=\"Advertisement\"></A>\n</NOSCRIPT>\n</IFRAME><br><script type=\"text/javascript\" src=\"https://c.betrad.com/surly.js?;ad_w=300;ad_h=250;coid=321;nid=8575;ad_z=50000;\"></script><img src=\"https://lbinaplax.bidder.owneriq.net:443/bidder/ox/notify?id=bdcf992f-fffc-47c2-a59e-72c9ce938623&bc=23925800505&br=225952052&sz=300x250&dn=weather.com&wp=AAABVIMUPDEwpxNbHdQlG-aoiVRHq8aZOZw-LQ&uid=Q5137685391677412904&li=2392580&bp=13.967514038085938\" width=\"1\" height=\"1\" border=\"0\" />"
+          }
+        ]
+      }
+    ]
+  }
+});
